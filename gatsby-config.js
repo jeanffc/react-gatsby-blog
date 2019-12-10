@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "CodeBlog Brasil",
+    title: "React Gatsby Blog",
     description: "O melhor blog de programação do Brasil"
   }
 };
