@@ -2,6 +2,8 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
+import "minireset.css";
+
 export default ({ data }) => (
   <Layout title={data.site.siteMetadata.title}>
     <p>{data.site.siteMetadata.description}</p>
