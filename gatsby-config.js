@@ -1,7 +1,9 @@
+const config = require("./data/config");
+
 module.exports = {
   siteMetadata: {
-    title: "React Gatsby Blog",
-    description: "O melhor blog de programação do Brasil"
+    title: config.siteTitle,
+    description: config.siteDescription
   },
   plugins: [
     "gatsby-plugin-catch-links",
