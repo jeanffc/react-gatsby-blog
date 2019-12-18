@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import { graphql, Link } from "gatsby";
 import _ from "lodash";
 import Layout from "../components/Layout";
+import SEO from "../components/SEO/SEO";
 
 export default class Post extends Component {
   render() {
     const { data } = this.props;
-    const { title, tags, date } = data.markdownRemark.frontmatter;
+    const { fields } = data.markdownRemark;
+    const { slug } = fields;
+    const { title, tags, date, description } = data.markdownRemark.frontmatter;
     const { html } = data.markdownRemark;
     return (
       <Layout>
@@ -19,6 +22,7 @@ export default class Post extends Component {
             margin: "10px 15px"
           }}
         >
+          <SEO title={title} url={slug} description={description} article />
           <h2 style={{ fontSize: "22px", fontWeight: "bold" }}>{title}</h2>
           <p>
             {tags.map(tag => (
