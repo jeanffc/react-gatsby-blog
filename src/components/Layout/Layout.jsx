@@ -26,7 +26,7 @@ export default ({ children, title }) => (
           />
           <Sidebar
             title="Sobre o blog"
-            description="Aqui você encontará muito conteúdo de FrontEnd e CSS, além de umas dicas senasacionais de carreira!"
+            description="Neste blog incrível você encontará muito conteúdo de FrontEnd!"
           />
         </aside>
       </Container>
