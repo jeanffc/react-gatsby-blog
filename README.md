@@ -14,6 +14,14 @@ npm install
 gatsby develop
 ```
 
+```bash
+gatsby build
+```
+
+```bash
+gatsby serve
+```
+
 ## Roadmap
 
 ## Contributing
