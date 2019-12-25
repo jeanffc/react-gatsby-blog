@@ -30,4 +30,4 @@ Pull requests are welcome.
 
 ## Contact me
 
-<a href="https://www.linkedin.com/in/jeancampos/"> LinkedIn</a>
+<a href="https://www.linkedin.com/in/jeancampos/">LinkedIn</a>
